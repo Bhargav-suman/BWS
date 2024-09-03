@@ -1,0 +1,221 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        .navbar{
+            padding: 15px;
+            background-color: rgba(128,0,128);
+        }
+        .navdiv{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo a{
+            padding-left: 50px;
+            font-size: 35px;
+            font-weight: 600;
+            color: white;
+        }
+        ul{
+            padding-right: 25px;
+        }
+        li{
+            list-style: none;
+            display: inline-block;
+        }
+        li a{
+            color: white;
+            font-size: 18px;
+            font-weight: lighter;
+            margin-right: 55px;
+        }
+        .hero{
+            height: 100vh;
+            width: 100vw;
+            background-color: rgba(128,0,128);
+            display: flex;
+        }
+        i{
+            margin: 2px;
+            color: white;
+        }
+        .himage{
+            margin-top: 30px;
+            margin-right: 30px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            border-radius: 50%;
+        }
+        img{
+            width: 600px;
+            flex-basis: 50%;
+        }
+        .hcontent{
+            flex-basis: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        pre{
+            color: white;
+            font-size: 60px;
+        }
+        text{
+            color: white;
+            font-size: 20px;
+        }
+        .hcontent p{
+            color: white;
+            font-size: 30px;
+            width: 70%;
+        }
+        .furnside{
+            margin: 40px;
+            display: flex;
+            height: 450px;
+            justify-content: space-around;
+        }
+        .furnside div{
+            flex-basis: 25%;
+            margin: 15px;
+            padding: 15px;
+            
+        }
+        .furnside img{
+            width: 250px;
+            height: 250px;
+        }
+        .block1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .block1 p,button{
+            margin: 6px;
+            font-size: x-large;
+        }
+        .block2 .block3 .block4{
+            
+            display: flex;
+            justify-content: center;
+        }
+        .container1{
+            display: flex;
+            margin: 20px;
+            padding: 20px;
+        }
+        .container1 .context_image{
+            margin: 20px;
+            border-radius: 5px;
+        }
+        .context{
+            flex-basis: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+        .can3 , .can4{
+            display: flex;
+        }
+        .can2 img{
+            width: 200px;
+            height: 200px;
+
+        }
+        .container2{
+            margin-top: 40px;
+            display: flex;
+        }
+        .container2 div{
+            flex-basis: 50%;
+        }
+        .photo{
+            padding: 30px;
+            position: relative;
+        }
+        .pic1 img{
+            position: relative;
+            z-index: 1;
+            width: 490px;
+            height: 600;
+            border-radius: 5px;
+        }
+        .pic2 img{
+            position: absolute;
+            z-index: 2;
+            height: 350px;
+            width: 350px;
+            bottom: 0;
+            right: -25px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            
+        }
+        .pic3 img{
+            position: absolute;
+            z-index: 2;
+            height: 220px;
+            width: 200px;
+            top: 0;
+            right: 0;
+            border-radius: 5px;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 20px;
+            padding: 60px;
+        }
+        .content p, button{
+            margin: 5px;
+        }
+        .content p{
+            font-size: 20px;
+        }
+        .content h1{
+            font-size: 35px;
+        }
+        button{
+            background-color: rgba(128,0,128);
+            color: white;
+            padding: 15px;
+            margin: 15px;
+        }
+        button:hover{
+            background-color: white;
+            border: 2px solid rgba(128,0,128);
+            color: rgba(128,0,128);
+        }
+        .below{
+            margin-top: 50px;
+            padding: 20px;
+            height: 150px;
+            display: flex;
+            border-top: 3px solid rgba(128,0,128);
+            border-bottom: 3px solid rgba(128,0,128);
+        }
+        .below ul{
+            flex-basis: 25%;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            color: rgba(128,0,128);
+            
+        }
+        .footer{
+            padding: 20px;
+            height: 40px;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            background-color: rgba(128,0,128);
+        }
+  
